@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('image');
-            $table->foreignId('created_by');
+            $table->string('created_by')->nullable();
             $table->boolean('is_active')->default(true);
             $table->timestamps();
         });
