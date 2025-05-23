@@ -6,6 +6,7 @@ use App\Models\About;
 use App\Models\BlogCategory;
 use App\Policies\UserPolicy;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
@@ -41,8 +42,10 @@ class AppServiceProvider extends ServiceProvider
             $view->with('categories', $categories);
         });
 
-        $about = About::select('phone_number', 'email')->first();
-        View::share('about', $about);
+        if (Schema::hasTable('abouts')) {
+            $about = About::select('phone_number', 'email')->first();
+            View::share('about', $about);
+        }
     }
 
 }
