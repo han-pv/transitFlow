@@ -28,7 +28,7 @@
                     @lang('app.lastname')
                     </label>
                     <input type="text" class="form-control{{ $errors->has('lastname') ? ' is-invalid' : '' }}" id="lastname"
-                        name="lastname" value="{{ old('lastname') }}" required>
+                        name="lastname" value="{{ old('lastname') }}">
                     @if($errors->has('lastname'))
                         <div class="invalid-feedback">
                             {{ $errors->first('lastname') }}
