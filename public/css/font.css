@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../font/Rubik-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../font/Rubik-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../font/Rubik-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font/Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../font/Rubik-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../font/Rubik-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../font/Rubik-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../font/Rubik-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../font/Rubik-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../font/Rubik-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../font/Rubik-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../font/Rubik-BlackItalic.ttf');
+}
+
+.font-Rubik {
+    font-family: 'Rubik';
+}
